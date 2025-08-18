@@ -223,12 +223,14 @@ span{
     color: black;
 }
 
+/*View Prototype Button*/
+
 .btn1{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--second-bg-color);
     box-shadow: 0 0 25px rgb(59, 59, 59);
-    border-radius: 4rem;
+    border-radius: 5rem;
     font-size: 1.6rem;
     color: rgb(255, 255, 255);
     border: 2px solid transparent;
@@ -242,6 +244,26 @@ span{
     transform: scale(1.05);
     box-shadow: 0 0 50px var(--main-color);
 }
+
+.btn1-group{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn1-group a:nth-of-type(2){
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+}
+
+.btn1-group a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
+
 
 
 .text-animation{
@@ -279,6 +301,7 @@ span{
 
 .about h2{
     margin-bottom: 5rem;
+    font-size: 8rem;
 }
 
 .timeline-items{
@@ -386,6 +409,7 @@ span{
 .projects h2{
     margin-bottom: 5rem;
     color: white;
+    font-size: 8rem;
 }
 
 .projects-container{
@@ -466,8 +490,17 @@ span{
     justify-content: space-between;
 }
 
+
+/*Core Design Skills */
+
 .skills{
    background: var(--second-bg-color);
+}
+
+.skills h2{
+    margin-bottom: 5rem;
+    color: white;
+    font-size: 8rem;
 }
 
 .skills-box{
@@ -546,6 +579,12 @@ span{
     flex-direction: column;
 }
 
+.skills1 h2{
+    margin-bottom: 5rem;
+    color: white;
+    font-size: 8rem;
+}
+
 .skills1 .heading{
     margin-bottom: 5rem;
 }
@@ -607,6 +646,7 @@ span{
 .contact h2{
     margin-bottom: 3rem;
     color: white;
+    font-size: 8rem;
 }
 
 .contact form{
@@ -748,7 +788,7 @@ span{
         padding-bottom: 7rem;
     }
 
-    .projects .container{
+    .projects-container{
         grid-template-columns: repeat(1,1fr);
     }
     .skills .wrapper{
@@ -830,16 +870,6 @@ span{
   display: none;
 }
 
-/* Show only on mobile */
-@media (max-width: 768px) {
-  #menu-icon {
-    display: block;
-  }
-
-  .navbar {
-    display: none; /* hide navbar links */
-  }
-}
 
 /* Default */
 .btn1 {
@@ -890,5 +920,41 @@ span{
 
   .heading {
     font-size: 1.8rem;
+  }
+}
+
+/* Responsive for tablets */
+@media (max-width: 1024px) {
+  .projects-info h4 {
+    font-size: 1.6rem;
+  }
+
+  .projects-info p {
+    font-size: 1.3rem;
+  }
+
+  .btn1 {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .projects-box {
+    padding: 1rem;
+  }
+
+  .projects-info h4 {
+    font-size: 1.4rem;
+  }
+
+  .projects-info p {
+    font-size: 1.01rem;
+  }
+
+  .btn1 {
+    font-size: 0.8rem;
+    padding: 8px 16px;
   }
 }
