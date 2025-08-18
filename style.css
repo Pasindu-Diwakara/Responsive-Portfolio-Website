@@ -61,7 +61,6 @@ body {
 
 }
 
-
 .logo img:hover{
     transform: scale(1.1);
 }
@@ -78,8 +77,6 @@ body {
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
-
-
 
 .navbar a:hover,
 .navbar a.active{
@@ -223,49 +220,6 @@ span{
     color: black;
 }
 
-/*View Prototype Button*/
-
-.btn1{
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--second-bg-color);
-    box-shadow: 0 0 25px rgb(59, 59, 59);
-    border-radius: 5rem;
-    font-size: 1.6rem;
-    color: rgb(255, 255, 255);
-    border: 2px solid transparent;
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.btn1:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 50px var(--main-color);
-}
-
-.btn1-group{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.btn1-group a:nth-of-type(2){
-    background-color: black;
-    color: var(--main-color);
-    border: 2px solid var(--main-color);
-    box-shadow: 0 0 25px transparent;
-}
-
-.btn1-group a:nth-of-type(2):hover{
-    box-shadow: 0 0 25px var(--main-color);
-    background-color: var(--main-color);
-    color: black;
-}
-
-
-
 .text-animation{
     font-size: 34px;
     font-weight: 600;
@@ -401,6 +355,10 @@ span{
     width: 50px;
 }
 
+
+/*Projects*/
+
+
 .projects{
     background: var(--bg-color);
     color: black;
@@ -490,8 +448,50 @@ span{
     justify-content: space-between;
 }
 
+/*View Prototype Button*/
+
+.btn1{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--second-bg-color);
+    box-shadow: 0 0 25px rgb(59, 59, 59);
+    border-radius: 5rem;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.btn1-group{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn1-group a:nth-of-type(2){
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+}
+
+.btn1-group a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
+
 
 /*Core Design Skills */
+
 
 .skills{
    background: var(--second-bg-color);
@@ -564,8 +564,8 @@ span{
 }
 
 
-
 /*Software & Application Skills */
+
 
 .skills1{
    background: var(--second-bg-color);
@@ -638,6 +638,8 @@ span{
 }
 
 
+/*Contact Me*/
+
 
 .contact{
     background-color: var(--bg-color);
@@ -680,6 +682,10 @@ span{
 .contact form .btn{
     margin-top: 2rem;
 }
+
+
+/*Footer*/
+
 
 .footer{
     position: relative;
@@ -749,6 +755,10 @@ span{
     color: white;
 }
 
+
+
+/*Responsive*/
+
 @media(max-width: 1285px){
     html{
         font-size: 55%;
@@ -759,7 +769,6 @@ span{
     margin: 2rem 3%;
     }
 }
-
 
 @media(max-width:991px){
     header{
@@ -870,15 +879,12 @@ span{
   display: none;
 }
 
-
-/* Default */
 .btn1 {
   padding: 12px 24px;
   font-size: 1rem;
   border-radius: 8px;
 }
 
-/* On mobile */
 @media (max-width: 768px) {
   .btn1 {
     padding: 8px 16px;
@@ -890,20 +896,17 @@ span{
   font-size: 3rem;
 }
 
-/* Desktop */
 .heading {
   font-size: 3rem;
   text-align: center;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .heading {
     font-size: 1.8rem;
   }
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
@@ -923,7 +926,6 @@ span{
   }
 }
 
-/* Responsive for tablets */
 @media (max-width: 1024px) {
   .projects-info h4 {
     font-size: 1.6rem;
@@ -939,7 +941,6 @@ span{
   }
 }
 
-/* Responsive for mobile */
 @media (max-width: 768px) {
   .projects-box {
     padding: 1rem;
