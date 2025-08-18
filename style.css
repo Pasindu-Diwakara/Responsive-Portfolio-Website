@@ -945,7 +945,7 @@ span{
   }
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 1650px) {
   .projects-box {
     padding: 1rem;
   }
@@ -956,25 +956,6 @@ span{
 
   .projects-info p {
     font-size: 1.55rem;
-  }
-
-  .btn1 {
-    font-size: 1rem;
-    padding: 12px 24px;
-  }
-}
-
-@media (max-width: 1650px) {
-  .projects-box {
-    padding: 1rem;
-  }
-
-  .projects-info h4 {
-    font-size: 1.7rem;
-  }
-
-  .projects-info p {
-    font-size: 1.3rem;
   }
 
   .btn1 {
